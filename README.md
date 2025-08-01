@@ -1,6 +1,6 @@
 # Build and Deploy an Amazing 3D Developer Portfolio in React with Three.js
 
-![3D Website](https://drive.google.com/file/d/1WDWlxF5uaCYW1JxIOe2OQ_57UAU7jwXe/view?usp=sharing)
+![3D Website](https://drive.google.com/uc?export=view&id=1WDWlxF5uaCYW1JxIOe2OQ_57UAU7jwXe)
 
 
 🌟 Features
