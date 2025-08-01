@@ -38,7 +38,7 @@ import hibernate from "../skills/hibernate.png";
 import cpp from "../skills/cpp.png";
 import python from "../skills/python.png";
 import figma from "../skills/figma.png";
-import ml from "../skills/ml.png";
+import ml from "../skills/ML.png";
 
 
 export {
