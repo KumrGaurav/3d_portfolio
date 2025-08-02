@@ -91,7 +91,7 @@ const About = () => {
             <br />
             My technical stack includes JavaScript, Python, C++, REST APIs,
             SQL/MySQL, MongoDB, Firebase, Docker, AWS, and Azure. I bring
-            real-world expertise from a 4-month internship and enjoy debugging,
+            real-world expertise from a 6-month internship and enjoy debugging,
             deploying, and writing clean, maintainable code. Currently, I’m open
             to full-time opportunities to contribute, learn, and build impactful
             products.
