@@ -8,7 +8,7 @@ const Footer = () => {
       <hr className="border-slate-200" />
 
       <div className="footer-container">
-        <p>
+        <p className="text-center text-sm text-secondary">
           © 2025 <strong>Gaurav Singh</strong>. All rights reserved.
         </p>
 
