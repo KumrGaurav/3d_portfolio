@@ -5,6 +5,7 @@ import starbucks from './starbucks.png'
 import tesla from './tesla.png'
 import tanaashi from './t.png'
 import reactn from './reactn.png'
+import edns from './EDns.png'
 
 
 export {
@@ -14,5 +15,6 @@ export {
     starbucks,
     tesla,
     tanaashi,
-    reactn
+    reactn,
+    edns
 }

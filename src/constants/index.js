@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, tanaashi, reactn } from "../assets/images";
+import { meta, shopify, starbucks, tesla, tanaashi, reactn, edns } from "../assets/images";
 
 import {
     backend,
@@ -229,6 +229,36 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Software Developer",
+        company_name: "EDns solution Pvt Ltd",
+        icon: edns,
+        iconBg: "#fbc3bc",
+        date: "Oct 2025 - Present",
+        points: [
+            "Developing responsive and scalable web applications using React.js, Next.js, and TypeScript with clean architecture and reusable UI components.",
+            "Implementing advanced features including role-based access control, complex form handling, pagination, filtering, and real-time data updates.",
+            "Integrating REST APIs with secured authentication flows and enhancing performance through lazy loading, code splitting, and optimization techniques.",
+            "Collaborating with backend and QA teams to resolve production issues, improve code quality, and ensure smooth deployment and release cycles.",
+            "Managing codebase and feature releases using Git version control, GitHub workflows, and collaborating with backend and QA teams for seamless deployments."
+        ]
+,
+    },
+    {
+        title: "ReactJS and React Native Developer",
+        company_name: "Freelance",
+        icon: reactn,
+        iconBg: "#fbc3bc",
+        date: "Nov 2024 - Oct 2025",
+        points: [
+            "Developed and maintained responsive web and mobile applications using ReactJS and React Native.",
+            "Collaborated directly with clients to gather requirements, provide updates, and deliver custom solutions.",
+            "Integrated RESTful APIs and managed state using Redux and Context API for seamless user experience.",
+            "Implemented reusable components and optimized app performance across Android, iOS, and web platforms.",
+            "Handled end-to-end development as a freelancer, ensuring timely delivery and client satisfaction."
+        ]
+,
+    },
+    {
         title: "Java Full Stack Developer",
         company_name: "Tanaashi",
         icon: tanaashi,
@@ -242,47 +272,7 @@ export const experiences = [
             "Collaborated with cross-functional teams and followed Agile practices for timely delivery."
         ],
     },
-    {
-        title: "ReactJS and React Native Developer",
-        company_name: "Freelance",
-        icon: reactn,
-        iconBg: "#fbc3bc",
-        date: "Nov 2024 - Present",
-        points: [
-            "Developed and maintained responsive web and mobile applications using ReactJS and React Native.",
-            "Collaborated directly with clients to gather requirements, provide updates, and deliver custom solutions.",
-            "Integrated RESTful APIs and managed state using Redux and Context API for seamless user experience.",
-            "Implemented reusable components and optimized app performance across Android, iOS, and web platforms.",
-            "Handled end-to-end development as a freelancer, ensuring timely delivery and client satisfaction."
-        ]
-,
-    },
-    // {
-    //     title: "Web Developer",
-    //     company_name: "Shopify",
-    //     icon: shopify,
-    //     iconBg: "#b7e4c7",
-    //     date: "Jan 2022 - Jan 2023",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
-    // {
-    //     title: "Full stack Developer",
-    //     company_name: "Meta",
-    //     icon: meta,
-    //     iconBg: "#a2d2ff",
-    //     date: "Jan 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
+    
 ];
 
 export const socialLinks = [
