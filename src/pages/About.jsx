@@ -3,7 +3,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 
-//import Tilt from "react-tilt";
+
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
@@ -291,4 +291,4 @@ const About = () => {
   );
 };
 export default StarWrapper(About, "about");
-//export default About;
+

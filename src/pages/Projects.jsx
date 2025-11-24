@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import Tilt from "react-parallax-tilt";
@@ -47,6 +47,23 @@ const Projects = () => {
     setSelectedProject(null);
     document.body.style.overflow = "auto";
   };
+
+  // Close modal on escape key
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") {
+        closeModal();
+      }
+    };
+
+    if (showModal) {
+      window.addEventListener("keydown", handleKeyDown);
+    }
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [showModal]);
 
   return (
     <section className="max-container">
@@ -110,6 +127,13 @@ const Projects = () => {
                     <div
                       className="relative mb-5 overflow-hidden rounded-xl border border-white/30 shadow-lg group-hover:shadow-xl transition-all duration-500 cursor-pointer"
                       onClick={() => openModal(project)}
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter" || e.key === " ") {
+                          openModal(project);
+                        }
+                      }}
+                      role="button"
+                      tabIndex={0}
                     >
                       <motion.img
                         src={
@@ -260,7 +284,10 @@ const Projects = () => {
                     showStatus={false}
                     className="rounded-2xl overflow-hidden"
                   >
-                    {selectedProject.imageSrc.map((src, idx) => (
+                    {(Array.isArray(selectedProject.imageSrc)
+                      ? selectedProject.imageSrc
+                      : [selectedProject.imageSrc]
+                    ).map((src, idx) => (
                       <div
                         key={idx}
                         className="h-[70vh] flex items-center justify-center"
